@@ -58,7 +58,7 @@ This is a simple authentication API built with Node.js, Express, and MongoDB. It
 ```
 
 ### User Login
-**POST** `/login`
+**POST** `/api/login`
 #### Request Body:
 ```json
 {
@@ -79,7 +79,7 @@ This is a simple authentication API built with Node.js, Express, and MongoDB. It
 ```
 
 ### Get User Profile (Protected Route)
-**GET** `/profile`
+**GET** `/api/profile`
 #### Headers:
 ```json
 {
